@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1441px) {
+  #pocetak .container-fluid {
+    width: 80% !important;
+  }
+  #pocetak .container-fluid header #logo img {
+    width: 78%;
+  }
+  #pocetak .container-fluid header #meni ul li {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  #pocetak header .container-fluid {
+    width: 100% !important;
+    padding: 12px !important;
+  }
+  #pocetak header #meni ul {
+    margin: 0px 15px;
+  }
+  #pocetak header #meni ul li {
+    font-size: 28px;
+  }
+}

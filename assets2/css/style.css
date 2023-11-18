@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bullseye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontala {
+  display: flex;
+  justify-content: center;
+}
+.vertikala {
+  display: flex;
+  align-items: center;
+}
+@font-face {
+  font-family: Fancy;
+  src: url(/assets/fonts/saturday/Saturday.ttf);
+}
+#pocetak {
+  background-image: url(/assets/slike/restoranmesopocetak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-attachment: fixed;
+  z-index: 4;
+  height: 150vh;
+}
+#pocetak #tekst {
+  text-align: center;
+  z-index: 5;
+}
+#pocetak #tekst h1,
+#pocetak #tekst p {
+  color: #ffffff;
+  outline: #000000;
+}
+#pocetak #tekst h1 {
+  font-size: 90px;
+  font-family: Fancy;
+}
+#pocetak #tekst p {
+  font-size: 41px;
+}
+#pocetak .vertikalwrapper {
+  position: relative;
+}
+#pocetak .vertikalwrapper header {
+  z-index: 5;
+  background-color: #000000;
+}
+#pocetak .vertikalwrapper header .container-fluid {
+  width: 100% !important;
+}
+#pocetak .vertikalwrapper header .container-fluid #logo img {
+  width: 60%;
+}
+#pocetak .vertikalwrapper header .container-fluid #meni ul {
+  list-style-type: none;
+  margin: 0px 13px;
+  padding: 0;
+}
+#pocetak .vertikalwrapper header .container-fluid #meni ul li {
+  font-size: 29px;
+}
+#pocetak .vertikalwrapper header .container-fluid #meni ul li a {
+  text-decoration: none;
+  color: #f2a71b;
+}

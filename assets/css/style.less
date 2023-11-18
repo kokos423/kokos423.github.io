@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+//mixine
+.bullseye{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontala{
+    display:flex;
+    justify-content: center;
+}
+
+.vertikala{
+    display:flex;
+    align-items: center;
+}
+
+//fontovi
+@font-face {
+    font-family: Fancy;
+    src: url("/assets/fonts/saturday/Saturday.ttf");
+}
+
+//boje
+@narandzasta: #f2a71b;
+
+body{
+    background-image: url("/assets/slike/restoranmesopocetak.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #000000;
+    .container-fluid{
+        width:100% !important;
+    #logo{
+        img{
+            width: 60%;
+        }
+    }
+    #meni{
+        ul{
+            width: 100%;
+            list-style-type: none;
+            padding:0;
+            li{
+                font-size: 32px;
+                a{
+                    text-decoration: none;
+                    color: @narandzasta;
+                }
+            }
+        }
+    }
+    }
+    }
+
+#hamburger{
+        display:none;
+    }
+
+#pocetak{
+    height:110vh;
+    #tekst{
+        padding-top: 200px;
+        text-align: center;
+        h1, p{
+            color: #ffffff;
+            outline: #000000;
+        }
+        h1{
+            font-size: 105px;
+            font-family: Fancy;
+        }
+        p{
+            font-size: 41px;
+        }
+    }
+}

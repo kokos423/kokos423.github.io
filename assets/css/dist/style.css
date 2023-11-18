@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bullseye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontala {
+  display: flex;
+  justify-content: center;
+}
+.vertikala {
+  display: flex;
+  align-items: center;
+}
+@font-face {
+  font-family: Fancy;
+  src: url("/assets/fonts/saturday/Saturday.ttf");
+}
+body {
+  background-image: url("/assets/slike/restoranmesopocetak.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-color: #000000;
+}
+header .container-fluid {
+  width: 100% !important;
+}
+header .container-fluid #logo img {
+  width: 60%;
+}
+header .container-fluid #meni ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+header .container-fluid #meni ul li {
+  font-size: 32px;
+}
+header .container-fluid #meni ul li a {
+  text-decoration: none;
+  color: #f2a71b;
+}
+#hamburger {
+  display: none;
+}
+#pocetak {
+  height: 110vh;
+}
+#pocetak #tekst {
+  padding-top: 200px;
+  text-align: center;
+}
+#pocetak #tekst h1,
+#pocetak #tekst p {
+  color: #ffffff;
+  outline: #000000;
+}
+#pocetak #tekst h1 {
+  font-size: 105px;
+  font-family: Fancy;
+}
+#pocetak #tekst p {
+  font-size: 41px;
+}
